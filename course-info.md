@@ -13,7 +13,7 @@ Software Engineering
 
 **Class Time:** Tue/Thu 9:30 AM - 11:15 AM
 
-**Room:** 241 Lawrence Hall
+**Room:** G37 Benedum Hall
 
 **TA:** Tazin Afrin (GitHub username: _TBD_)
 
