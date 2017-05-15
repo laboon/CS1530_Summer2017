@@ -87,6 +87,10 @@ All software projects for this course will be written in the Java language (vers
 
 Note that all works produced by you are your intellectual property and you may do what you want with it.  However, this class is collaborative.  You may need to show and share your work to other students under the direction of the instructor.
 
+## Participating in Class
+
+Under reasonable circumstances, it is almost always better to participate in class than not.  Questions and comments are invited and strongly encouraged!  However, this implies raising your hand and waiting to be called upon.  In dire circumstances, some waving of the hands in order to get the instructor's attention is allowed, but suboptimal.  Talking out of turn or while the instructor is speaking is generally frowned upon.  If it persists after a warning has been given, the instrutor may ask any offending parties to leave the room to continue their discussion elsewhere.
+
 ## Disability Services Statement
 
 The Office of Disability Resources and Services (DRS) provides a broad range of support services to assist students with disabilities. Services include, but are not limited to, tape-recorded textbooks, sign language interpreters, adaptive and transportation. Contact DRS at 412-648-7890 or 412-383-1355 (TTY) in 216 William Pitt Union or see www.drs.pitt.edu for more computer technology, Braille translation, and nonstandard exam arrangements, DRS can also assist students with accessibility to campus housing information.
