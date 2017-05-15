@@ -17,7 +17,7 @@ Software Engineering
 
 **TA:** Tazin Afrin (GitHub username: _TBD_)
 
-**Class GitHub repo:** [https://www.github.com/laboon/cs1530_Spring2017](https://www.github.com/laboon/CS1530_Summer2017)  
+**Class GitHub repo:** [https://www.github.com/laboon/CS1530_Summer2017](https://www.github.com/laboon/CS1530_Summer2017)  
 
 **Required Texts:** 
   * Growing Object-Oriented Software, Guided by Tests.  Authors: Steve Freeman and Nat Pryce. ISBN 9780321503626

@@ -15,7 +15,7 @@ Note that this syllabus is subject to change, but we will cover all of these top
 
 ### Class 1 - Introduction: What is Software Engineering?
   * Software Engineering vs Programming vs Computer Science
-  * Group creation (EX1)
+  * EXERCISE: Group creation (EX1)
 
 ### Class 1 - Overview: Designing a Software Product
 #### __Reading: Brooks, "The Tar Pit" and Brooks, "The Mythical Man-Month" (just the titular essay, not the entire book)__
@@ -31,8 +31,7 @@ Note that this syllabus is subject to change, but we will cover all of these top
 
 ### Class 2 - Interacting with Stakeholders and Co-workers
   * EXERCISE: Stakeholder interaction (EX2)
-
-* BEGIN SPRINT 1
+  * BEGIN SPRINT 1
 
 ## WEEK 3 (30 May and 1 June)
 
