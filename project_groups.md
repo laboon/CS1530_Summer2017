@@ -16,6 +16,18 @@ _We don't engineer software, software engineers us!_
 
 ----
 
+
+## SUPER GROUPERS
+
+_Meow lets get coding_
+
+  * Dominic DiPasquale
+  * Michaela Webster
+  * David Hasler
+  * Brian Luebbert-Hill
+
+----
+
 ## (404) Team Name Not Found
 
 _We work hard on software. ( ͡° ͜ʖ ͡°)_
