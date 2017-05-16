@@ -14,25 +14,13 @@ _We don't engineer software, software engineers us!_
   * Name N. Namer
 
 ----
+## FIVE GUYS
+_Five minutes can save five percent on car insurance!_
 
-## (404) Team Name Not Found
-
-_We work hard on software. ( ͡° ͜ʖ ͡°)_
-
-  * Elton Hartman (Eddie)
-  * David Haskell
-  * Dan Gilmour
-  * Woodrow Fulmer (WoodrowFulmer)
-
-----
-
-## Oakland Slum Lords
-
-_Free Wifi_
-
- * Zachary Ward Github: wardzacharyj
- * Sam Russak Github:SamRussak
- * Richard Dillon
- * Stephen Dowhy
+ * Ling Han lih66@pitt.edu
+ * Sol Yun euy9@pitt.edu
+ * Kayla Walker kmw118@pitt.edu
+ * Jeff Krystek jrk108@pitt.edu
+ * Ziran Cao    ZIC22@pitt.edu
  
  ----
