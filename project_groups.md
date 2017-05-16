@@ -16,3 +16,12 @@ _Meow lets get coding_
   * Brian Luebbert-Hill
 
 ----
+
+## Bill's Pills
+
+_This is a stupid name for a group!_
+
+  * Bill Laboon
+  * Phil Laboon
+  * Jill Laboon
+  * Dill(on) Laboon
