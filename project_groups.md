@@ -23,3 +23,16 @@ _We work hard on software. ( ͡° ͜ʖ ͡°)_
   * David Haskell
   * Dan Gilmour
   * Woodrow Fulmer (WoodrowFulmer)
+
+----
+
+## Oakland Slum Lords
+
+_Free Wifi_
+
+ * Zachary Ward Github: wardzacharyj
+ * Sam Russak Github:SamRussak
+ * Richard Dillon
+ * Stephen Dowhy
+ 
+ ----
