@@ -6,11 +6,13 @@ If you don't know how to issue a PR, please see the file how_to_sign_up.md in th
 
 Format:
 
-## EXAMPLE GROUP NAME
+## SUPER GROUPERS
 
-_We don't engineer software, software engineers us!_
+_Meow lets get coding_
 
-  * Namey McNamerson
-  * Name N. Namer
+  * Dominic DiPasquale
+  * Michaela Webster
+  * David Hasler
+  * Brian Luebbert-Hill
 
 ----
