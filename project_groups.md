@@ -6,33 +6,22 @@ If you don't know how to issue a PR, please see the file how_to_sign_up.md in th
 
 Format:
 
-## EXAMPLE GROUP NAME
+## SUPER GROUPERS
 
-_We don't engineer software, software engineers us!_
+_Meow lets get coding_
 
-  * Namey McNamerson
-  * Name N. Namer
-
-----
-
-## (404) Team Name Not Found
-
-_We work hard on software. ( ͡° ͜ʖ ͡°)_
-
-  * Elton Hartman (Eddie)
-  * David Haskell
-  * Dan Gilmour
-  * Woodrow Fulmer (WoodrowFulmer)
+  * Dominic DiPasquale
+  * Michaela Webster
+  * David Hasler
+  * Brian Luebbert-Hill
 
 ----
 
-## Oakland Slum Lords
+## Floogle
 
-_Free Wifi_
+_It's not delivery, it's deliverables_
 
- * Zachary Ward Github: wardzacharyj
- * Sam Russak Github:SamRussak
- * Richard Dillon
- * Stephen Dowhy
- 
- ----
+  * Dillon Miner dillonwm
+  * Kevin Dinh devinkinh
+  * Clay Colonna claycolonna
+  * Caitlin Campbell crc78
