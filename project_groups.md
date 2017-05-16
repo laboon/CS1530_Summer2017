@@ -15,24 +15,11 @@ _We don't engineer software, software engineers us!_
 
 ----
 
-## (404) Team Name Not Found
+## Team Antoon's
 
-_We work hard on software. ( ͡° ͜ʖ ͡°)_
+_6 dollar pizzas for life_
 
-  * Elton Hartman (Eddie)
-  * David Haskell
-  * Dan Gilmour
-  * Woodrow Fulmer (WoodrowFulmer)
-
-----
-
-## Oakland Slum Lords
-
-_Free Wifi_
-
- * Zachary Ward Github: wardzacharyj
- * Sam Russak Github:SamRussak
- * Richard Dillon
- * Stephen Dowhy
- 
- ----
+  * Ben Knopfmacher knopf620
+  * Mike Gabrin mgabrin
+  * Samantha Lambert sal162 
+  * Sam Finney TBD
