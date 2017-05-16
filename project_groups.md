@@ -33,7 +33,7 @@ _Meow lets get coding_
 _We work hard on software. ( ͡° ͜ʖ ͡°)_
 
   * Elton (Eddie) Hartman
-  * David Haskell
+  * David Haskell (dah121)
   * Dan Gilmour (dmgilmour)
   * Woodrow Fulmer (WoodrowFulmer)
 
