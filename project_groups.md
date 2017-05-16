@@ -16,3 +16,15 @@ _Meow lets get coding_
   * Brian Luebbert-Hill
 
 ----
+
+## Oakland Slum Lords
+
+_Free Wifi_
+
+ * Zachary Ward Github: wardzacharyj
+ * Sam Russak Github:SamRussak
+ * Richard Dillon
+ * Stephen Dowhy
+ 
+ ----
+
