@@ -32,9 +32,9 @@ _Meow lets get coding_
 
 _We work hard on software. ( ͡° ͜ʖ ͡°)_
 
-  * Elton Hartman (Eddie)
+  * Elton (Eddie) Hartman
   * David Haskell
-  * Dan Gilmour
+  * Dan Gilmour (dmgilmour)
   * Woodrow Fulmer (WoodrowFulmer)
 
 ----
