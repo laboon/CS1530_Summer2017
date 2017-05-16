@@ -14,3 +14,12 @@ _We don't engineer software, software engineers us!_
   * Name N. Namer
 
 ----
+
+## Bill's Pills
+
+_This is a stupid name for a group!_
+
+  * Bill Laboon
+  * Phil Laboon
+  * Jill Laboon
+  * Dill(on) Laboon
