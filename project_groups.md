@@ -79,7 +79,7 @@ _6 dollar pizzas for life_
   * Ben Knopfmacher knopf620
   * Mike Gabrin mgabrin
   * Samantha Lambert sal162 
-  * Sam Finney TBD
+  * Sam Finney saf76
 
 ----
 
