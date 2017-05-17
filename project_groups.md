@@ -45,7 +45,7 @@ _Free Wifi_
 
  * Zachary Ward Github: wardzacharyj
  * Sam Russak Github:SamRussak
- * Richard Dillon
+ * Richard Dillon Github:rdillon114
  * Stephen Dowhy
  
  ----
