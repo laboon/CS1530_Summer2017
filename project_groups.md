@@ -100,7 +100,7 @@ _Five minutes can save five percent on car insurance!_
  _Think the same._
  
   * Nathan Ackerman - NathanAckerman
-  * Alexander Furst
+  * Alexander Furst - ajf80
   * Keith Blake
   * Wei-Hao Chen
   
