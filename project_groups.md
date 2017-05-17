@@ -32,9 +32,9 @@ _Meow lets get coding_
 
 _We work hard on software. ( ͡° ͜ʖ ͡°)_
 
-  * Elton Hartman (Eddie)
-  * David Haskell
-  * Dan Gilmour
+  * Elton (Eddie) Hartman
+  * David Haskell (dah121)
+  * Dan Gilmour (dmgilmour)
   * Woodrow Fulmer (WoodrowFulmer)
 
 ----
@@ -45,7 +45,7 @@ _Free Wifi_
 
  * Zachary Ward Github: wardzacharyj
  * Sam Russak Github:SamRussak
- * Richard Dillon
+ * Richard Dillon Github:rdillon114
  * Stephen Dowhy
  
  ----
@@ -79,7 +79,7 @@ _6 dollar pizzas for life_
   * Ben Knopfmacher knopf620
   * Mike Gabrin mgabrin
   * Samantha Lambert sal162 
-  * Sam Finney TBD
+  * Sam Finney saf76
 
 ----
 
@@ -103,4 +103,16 @@ _Five minutes can save five percent on car insurance!_
   * Alexander Furst
   * Keith Blake
   * Wei-Hao Chen
-   
+  
+ ----
+  
+ ## Mom's Spaghetti
+ 
+ _...code's weak, mom's spaghetti_
+  
+  * Zach Adam - zta6
+  * Sam Bramson - Pitt: sab201, Github: sbramson
+  * Andrew Dehel - ajdehel
+  * Rob Zamboky - robertz95
+  
+---
