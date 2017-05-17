@@ -111,7 +111,7 @@ _Five minutes can save five percent on car insurance!_
  _...code's weak, mom's spaghetti_
   
   * Zach Adam - zta6
-  * Sam Bramson
+  * Sam Bramson - Pitt: sab201, Github: sbramson
   * Andrew Dehel - ajdehel
   * Rob Zamboky - robertz95
   
