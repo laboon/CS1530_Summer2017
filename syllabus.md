@@ -17,7 +17,7 @@ Note that this syllabus is subject to change, but we will cover all of these top
   * Software Engineering vs Programming vs Computer Science
   * EXERCISE: Group creation (EX1)
 
-### Class 1 - Overview: Designing a Software Product
+### Class 2 - Overview: Designing a Software Product
 #### __Reading: Brooks, "The Tar Pit" and Brooks, "The Mythical Man-Month" (just the titular essay, not the entire book)__
   * Why is this difficult?
   * Overview of the Software Development Life Cycle
