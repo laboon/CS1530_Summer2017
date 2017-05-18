@@ -122,5 +122,5 @@ _Five minutes can save five percent on car insurance!_
 _We're not very original_
   * Jay Thompson - Pitt: jat146, Github: JayAThompson
   * Atta Ebrahimi
-  * Anastasia Klonowski
+  * Anastasia Klonowski - Pitt: amk226, Github: anamklone
   * Stephen Klein
