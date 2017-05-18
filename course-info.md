@@ -89,7 +89,7 @@ Note that all works produced by you are your intellectual property and you may d
 
 ## Participating in Class
 
-Under reasonable circumstances, it is almost always better to participate in class than not.  Questions and comments are invited and strongly encouraged!  However, this implies raising your hand and waiting to be called upon.  In dire circumstances, some waving of the hands in order to get the instructor's attention is allowed, but suboptimal.  Talking out of turn or while the instructor is speaking is generally frowned upon.  If it persists after a warning has been given, the instrutor may ask any offending parties to leave the room to continue their discussion elsewhere.
+Under reasonable circumstances, it is almost always better to participate in class than not.  Questions and comments are invited and strongly encouraged!  However, this implies raising your hand and waiting to be called upon.  In dire circumstances, some waving of the hands in order to get the instructor's attention is allowed, but suboptimal.  Talking out of turn or while the instructor is speaking is generally frowned upon.  If it persists after a warning has been given, the instructor may ask any offending parties to leave the room to continue their discussion elsewhere.
 
 ## Disability Services Statement
 
