@@ -1,5 +1,4 @@
-# CS/COE 1530 Software Enginer
-Software Engineering
+# CS/COE 1530 Software Engineering
 
 ## Course Information
 
