@@ -123,4 +123,4 @@ _We're not very original_
   * Jay Thompson - Pitt: jat146, Github: JayAThompson
   * Atta Ebrahimi
   * Anastasia Klonowski - Pitt: amk226, Github: anamklone
-  * Stephen Klein
+  * Stephen Klein - sjk83
