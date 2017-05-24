@@ -1,181 +1,72 @@
-## Swing Exercise
+# Gradle Exercise
 
-Your mission, should you choose to accept it, is to create a Tic-Tac-Toe game!
+You and a partner are going to create a Java application gradle project which will print integer sequences.  You will then push your project to GitHub and show me.
 
-As you are going along, please compile and check that you are on the right track regularly.  Do not just type, type, type.  Studies have shown that more senior software engineers tend to make smaller steps, whereas junior engineers like to type in hundreds of lines then see if they compile.  Become a senior engineer as soon as you can!
+The first integer sequence is the Triangle number sequence.  Think of this as an "additive" version of a factorial function: whereas 5! = 5 * 4 * 3 * 2 * 1, Tri(5) = 5 + 4 + 3 + 2 + 1.  You can find the exact equation here: https://en.wikipedia.org/wiki/Triangular_number
 
-### Instructions
+The second sequence is the Lazy Caterer sequence.  This is the sequence which indicates how many pieces a cake could be cut into by using n knife cuts.  For example, with 0 knife cuts, a cake would have to stay in one piece.  With two knife cuts, you could have four pieces.  You can find the equation governing the Lazy Caterer sequence here: https://en.wikipedia.org/wiki/Lazy_caterer%27s_sequence
 
-The first thing to do is import all of the libraries that we need.  Specifically, we will want the java.awt.*, java.awt.event.*, and javax.swing.* classes.  We will see why later.
+The project should meet the following specifications:
 
-```java
-import java.awt.*;
-import java.awt.event.*; 
-import javax.swing.*;
-```
-
-After that, it's time to create a new frame.  A frame is what most people think of as a window (this is actually an old term - Emacs, for example, calls a window a "frame").  Creating a JFrame will create a new window.  You can set its size, default closing behavior, etc.  Frames are constructed like so:
-
-```java
-    JFrame _frame = new JFrame("Tic-Tac-Toe");
-```
-
-You should create this as an instance variable, not in a method.  Example:
-
-```java
-public class TicTacToe {
-    JFrame _frame = new JFrame("Tic-Tac-Toe");
-
-    public static void main(String[] args) {
-       
-    }
-
-}
-```
-
-You will note that our class is a JFrame, and not a Frame.  Frames are AWT (Abstract Window Toolkit) classes; JFrames are Swing classes.  Swing is a GUI framework built on top of AWT (which is much nicer, trust me).  You will find that most classes that start with J have an equivalent J-less class in AWT.
-
-We will do most of the work in the constructor; our main method should just make a new instance of the TicTacToe class.
-
-```java
-    public static void main(String[] args) {
-	new TicTacToe();
-    }
-```
-
-The last line of the constructor should let the frame be visible.  We can generate all of the data/elements/etc. "behind the scenes" without displaying them to the user, and then show them the finished version.  If you find that a window is not updating, it may be that you need to "force" a refresh by setting the frame to visible again.  It won't hurt anything if you do it more times than necessary (except when it comes to performance).
-
-```java
-	// Refresh window - otherwise we will not be able to see it
-	// THIS IS A COMMON SOURCE OF BUGS!
-	_frame.setVisible(true);
-```
-
-You can set the size of the frame by using the `setSize(width, height)` method on the frame.  `width` and `height` are specified in pixels.  The size of the frame is up to you.  Figure out what works best on your screen.  This can be done in the constructor.
-
-```java
-    	   _frame.setSize(400, 400);
-	   _frame.setVisible(true);
+1. A main class which accepts two arguments:
+  1. The first argument shall consist of either the string "lazy" or "triangle".  If neither, the program shall inform the user and exit with error code 1.
+  2. The second argument shall be a positive 32-bit integer.  If it is not, the program shall inform the user and exit with error code 2.
+2. The program shall print out the result (the Lazy Caterer number or the Triangle number) in the following format: "Tri(n) = x" if the user selected a triangle number or "Lazy(n) = x" if the user selected a Lazy Caterer number.
+3. At least three unit tests of each non-main method shall be added.  The minimum here is two methods (one to calculate triangle numbers and the other to calculate Lazy Caterer numbers).
+4. Aside from the gradle commands "build", "run", and "test", an additional task, "sequencehelp", shall be added.  I should be able to run this command with `gradle -q sequencehelp` or `gradle sequencehelp` .  This task shall do the following (in Groovy):
 
 ```
-
-You can set what should happen the user closes the window.  In many cases, we will want the program to exit; in others, we would want other events to occur.  For example, if you have multiple Firefox windows open, and you close one, you would not want the whole program to exit!  In our case, though, since we will have only one window and we will not need it to run in the background.  You can also do this in the constructor.
-
-```java
-	_frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  1. Print "Integer Sequence Project"
+  2. Print a short help sequence showing how the program works (as described in the specifications above)
 ```
 
-Feel free to look at the JFrame API (https://docs.oracle.com/javase/8/docs/api/javax/swing/JFrame.html) to see what else you can do!  Look under WindowConstants.
+If you need to exit with an error, it is important to exit with a different error than 0, as 0 indicates success to gradle.  It will not know that your program has an error unless you indicate it with a non-zero exit code.  This is good advice not just for this class but in general - if your program exits abnormally, the way to indicate this is with some non-zero exit code.  Other programs which may depend on yours can use that as a "signal" from your program.
 
-Now, we want to have two sections of the frame.  Each of these sections is called a panel, and like good Swing classes, are called JPanels.  Create them
+When complete, you should push up to GitHub and either show me a link or email it to me (if you finish after class).  It must be turned in by the next class.  If you are emailing, be sure to note both your name and your partner's so that I give you both credit.
 
-```java
-	JPanel _ttt = new JPanel();
-	JPanel _newPanel = new JPanel();
-```
+## Git / GitHub Basics
 
-The top panel is going to be a grid layout (that is, it will have all of its elements in a two-dimensional grid, just like a Tic-Tac-Toe board).  Each spot in the grid will be a button.  The bottom panel is only going to have one button in it, so it doesn't really matter what layout we use.
+We will go into further depth on git and GitHub when we have our Git exercise.  These are the "basic steps" necessary to complete the assignment; we will discuss the details of what they mean when we have our git exercise.
 
-In the constructor, set their respective layouts:
+### Creating A Repository
 
-```java
-	_ttt.setLayout(new GridLayout(3, 3));
-	_newPanel.setLayout(new FlowLayout());
-```
+1. Log in to GitHub at https://github.com
+2. Click on "Repositories" tab
+3. Click on the green "New" button
+4. Name the repository CS1530_Exercise2
+5. Ensure that the "public" radio button is selected
+6. Check the checkbox to create a repository with a README.md file
+7. Underneath that, select Add .gitignore: Gradle
+8. Click the green "Create Repository" button
 
-The Grid layout will position any elements (e.g. textboxes, buttons, labels, etc.) in a 3x3 layout.  The FlowLayout will just position the elements one after another, like letters in a line of text.  Also like a line of text, when no more elements fit, it will go "down" to the next line.
+### Cloning It To Your Computer
 
-Now in the constructor, position them like so:
+1. Make sure you have git installed!
+1. Navigate to https://github.com/YOUR_GITHUB_USERNAME/CS1530_Exercise2
+2. Click on the green "Clone or Download" button
+3. Make sure it says "Clone with HTTPS" (if it does not, click the "Use HTTPS" link)
+4. Copy and paste the URL shown in the textbox
+5. At the command line, or git command window if in Windows, navigate to the directory you want the repo to live under.
+6. Type "git clone" and then paste the URL you copied.  This URL should end in .git, e.g., https://github.com/laboon/CS1530_Exercise2.git.
+6. A copy of the repository is now located in a subdirectory called "CS1530_Exercise2" under the current directory.
 
-```java
+### Adding Appropriate Files and Pushing Back To GitHub
 
-	// This will place the tic-tac-toe panel at the top of
-	// the frame and the newPanel panel at the bottom
-	_frame.add(_ttt, BorderLayout.NORTH);
-	_frame.add(_newPanel, BorderLayout.SOUTH);
+1. Ensure that you have completed the project.
+2. Go to the root directory of the gradle project.
+3. Type `git add .`
+4. Type `git commit -am "final"`
+5. Type `git push origin master`
+6. Go to https://github.com/YOUR_GITHUB_USERNAME/CS1530_Exercise2 in your browser and ensure that you see all of the files you expected to see.
 
-```
+### Submission
 
-
-Create nine buttons to put in the 3x3 layout and add them.  You can do this with a simple for loop:
-
-```java
-public class TicTacToe {
-    JButton[] _buttons = new JButton[9];
-...
-```
-
-In the constructor:
-
-```java
-	for (int j=0; j<9; j++) {
-	    // Make a new button in the array location with text "_"
-	    _buttons[j] = new JButton("_");
-	    // Associate a new ButtonListener to the button (see below)
-	    ActionListener buttonListener = new ButtonListener();
-	    _buttons[j].addActionListener(buttonListener);
-	    // Set the font on the button
-	    _buttons[j].setFont(new Font("Courier", Font.PLAIN, 48));
-	    // Add this button to the _ttt panel
-	    _ttt.add(_buttons[j]);
-	}
-```
-
-This will create nine buttons along with their _listeners_ - that is, objects that "listen" for an event to take place, and then execute code when it happens.  We will fill in the listeners soon.
-
-Before you can compile, add a ButtonListener.  This can be an internal (non-public) class.  In our case, we will start with a button which just changes to X when it is pressed.
-
-```java
-    class ButtonListener implements ActionListener {
-
-	// Every time we click the button, it will perform
-	// the following action.
-
-	public void actionPerformed(ActionEvent e) {
-	   /
-	    JButton source = (JButton) e.getSource();
-	    String currentText = source.getText();
-	    if (currentText.equals("_")) {
-		source.setText("X");
-	    } else {
-		source.setText("_");
-	    }
-	}
-    
-    }
+Email me a link to repository (e.g., https://github.com/YOUR_GITHUB_USERNAME/CS1530_Exercise2) and the names and github usernames of the people who worked on it.
 
 ```
-
-Their default text on the button is `"_"` (the String argument to the JButton constructor).  When a user presses a button, the associated ActionListener for the clicked button will have its actionPerformed(ActionEvent e) method called.  We associated the listener with our button when we did the `_buttons[j].addActionListener(buttonListener);` statement.  Now when a button is pressed, the actionPerformed event actions take place.  If the text was a `"_"`, it will be changed to an `"X"`; otherwise, it will be set back to `"_"`.
-
-Using the above code as a base, create one button and listener for the other panel in the layout (`newPanel`).
-
-Using the previous steps as a base, create the listener for the "new game" button.  It should "erase" all of the buttons, putting them back to their default text when pressed.
-
-Using the previous steps as a base, create a boolean variable which flip-flops every time somebody presses a button.  The first time a button is pressed, the player should be an X, the second time an O, the third time an X, etc.  You can determine whether to make the spot an X or O based on this flip-flop variable.
-
-Finally, add code to ensure that users cannot press a button which is already an X or an O.
-
-### Additional Information
-
-Feel free to take a look at the sample code for these classes to help put the system together:
-
-1. Frames - https://github.com/laboon/cs0401/blob/master/sample_code/FrameDemo.java
-1. Panels - https://github.com/laboon/cs0401/blob/master/sample_code/PanelDemo.java and https://github.com/laboon/cs0401/blob/master/sample_code/PanelDemo2.java
-2. Extending Panels - https://github.com/laboon/cs0401/tree/master/sample_code/extended_jpanel
-3. Creating and Interacting with Buttons - https://github.com/laboon/cs0401/blob/master/sample_code/ButtonDemo.java
-4. Creating a Grid Layout - https://github.com/laboon/cs0401/blob/master/sample_code/GridDemo.java
-5. Dynamically Changing A Button - https://github.com/laboon/cs0401/blob/master/sample_code/NameChangeButtonDemo.java
-
-Remember that part of being a software engineer is knowing how to look things up on your own!  If you don't understand how something works, feel free to look at the Java API pages (http://docs.oracle.com/javase/8/docs/api/).  
-
-For fun, you can add code to detect when a player has won or lost.  For even more fun, add some artificial intelligence and have the computer play the user!  However, neither of these is necessary.
-
-Please create a repository and email me a link to the repository before the next class.
-
-```
-Basic board layout: 0.5 points
-New Game: 0.5 points
-Buttons can be blank, X's or O's: 0.5 points
-Buttons cannot be changed after being set: 0.5 points
+Grading:
+Attendance: 0.5
+Lazy sequence: 0.5
+Triangle sequence: 0.5
+Tests: 0.5
 ```
