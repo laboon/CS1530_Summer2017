@@ -33,7 +33,7 @@ We will go into further depth on git and GitHub when we have our Git exercise.  
 1. Log in to GitHub at https://github.com
 2. Click on "Repositories" tab
 3. Click on the green "New" button
-4. Name the repository CS1530_Exercise2
+4. Name the repository CS1530_Exercise3
 5. Ensure that the "public" radio button is selected
 6. Check the checkbox to create a repository with a README.md file
 7. Underneath that, select Add .gitignore: Gradle
@@ -42,13 +42,13 @@ We will go into further depth on git and GitHub when we have our Git exercise.  
 ### Cloning It To Your Computer
 
 1. Make sure you have git installed!
-1. Navigate to https://github.com/YOUR_GITHUB_USERNAME/CS1530_Exercise2
+1. Navigate to https://github.com/YOUR_GITHUB_USERNAME/CS1530_Exercise3
 2. Click on the green "Clone or Download" button
 3. Make sure it says "Clone with HTTPS" (if it does not, click the "Use HTTPS" link)
 4. Copy and paste the URL shown in the textbox
 5. At the command line, or git command window if in Windows, navigate to the directory you want the repo to live under.
-6. Type "git clone" and then paste the URL you copied.  This URL should end in .git, e.g., https://github.com/laboon/CS1530_Exercise2.git.
-6. A copy of the repository is now located in a subdirectory called "CS1530_Exercise2" under the current directory.
+6. Type "git clone" and then paste the URL you copied.  This URL should end in .git, e.g., https://github.com/laboon/CS1530_Exercise3.git.
+6. A copy of the repository is now located in a subdirectory called "CS1530_Exercise3" under the current directory.
 
 ### Adding Appropriate Files and Pushing Back To GitHub
 
@@ -57,11 +57,11 @@ We will go into further depth on git and GitHub when we have our Git exercise.  
 3. Type `git add .`
 4. Type `git commit -am "final"`
 5. Type `git push origin master`
-6. Go to https://github.com/YOUR_GITHUB_USERNAME/CS1530_Exercise2 in your browser and ensure that you see all of the files you expected to see.
+6. Go to https://github.com/YOUR_GITHUB_USERNAME/CS1530_Exercise3 in your browser and ensure that you see all of the files you expected to see.
 
 ### Submission
 
-Email me a link to repository (e.g., https://github.com/YOUR_GITHUB_USERNAME/CS1530_Exercise2) and the names and github usernames of the people who worked on it.  This should be done _before_ the next class.
+Email me a link to repository (e.g., https://github.com/YOUR_GITHUB_USERNAME/CS1530_Exercise3) and the names and github usernames of the people who worked on it.  This should be done _before_ the next class.
 
 ```
 Grading:
