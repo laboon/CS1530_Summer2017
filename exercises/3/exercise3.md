@@ -12,7 +12,7 @@ The project should meet the following specifications:
   1. The first argument shall consist of either the string "lazy" or "triangle".  If neither, the program shall inform the user and exit with error code 1.
   2. The second argument shall be a positive 32-bit integer.  If it is not, the program shall inform the user and exit with error code 2.
 2. The program shall print out the result (the Lazy Caterer number or the Triangle number) in the following format: "Tri(n) = x" if the user selected a triangle number or "Lazy(n) = x" if the user selected a Lazy Caterer number.
-3. At least three unit tests of each non-main method shall be added.  The minimum here is two methods (one to calculate triangle numbers and the other to calculate Lazy Caterer numbers).
+3. At least three unit tests each for two methods (one to calculate triangle numbers and the other to calculate Lazy Caterer numbers) shall be added.  Each of these methods should accept a value _n_ and then simply return the _n_th sequence value.  These methods should have no "side effects" (e.g. printing information to the terminal).
 4. Aside from the gradle commands "build", "run", and "test", an additional task, "sequencehelp", shall be added.  I should be able to run this command with `gradle -q sequencehelp` or `gradle sequencehelp` .  This task shall do the following (in Groovy):
 
 ```
@@ -61,12 +61,12 @@ We will go into further depth on git and GitHub when we have our Git exercise.  
 
 ### Submission
 
-Email me a link to repository (e.g., https://github.com/YOUR_GITHUB_USERNAME/CS1530_Exercise2) and the names and github usernames of the people who worked on it.
+Email me a link to repository (e.g., https://github.com/YOUR_GITHUB_USERNAME/CS1530_Exercise2) and the names and github usernames of the people who worked on it.  This should be done _before_ the next class.
 
 ```
 Grading:
-Attendance: 0.5
 Lazy sequence: 0.5
 Triangle sequence: 0.5
 Tests: 0.5
+Error-checking: 0.5
 ```
