@@ -132,7 +132,7 @@ Before you can compile, add a ButtonListener.  This can be an internal (non-publ
 	// the following action.
 
 	public void actionPerformed(ActionEvent e) {
-	   /
+
 	    JButton source = (JButton) e.getSource();
 	    String currentText = source.getText();
 	    if (currentText.equals("_")) {
