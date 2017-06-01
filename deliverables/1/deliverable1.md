@@ -20,7 +20,7 @@ For the first sprint, you will turn in:
 1. A cover page, in the format described below
 1. A screenshot of your product backlog on GitHub Projects
 2. A description of decisions made in the sprint
-3. A "walking skeleton" application available on GitHub (ADD ME AND THE TA AS COLLABORATORS!  Usernames "laboon" and "TBD").  This should include a basic UI of the program - note that this does not need to have any functionality asociated with it, and it may change in the future.
+3. A "walking skeleton" application available on GitHub (ADD ME AND THE TA AS COLLABORATORS!  Usernames "laboon" and "tazin-afrin").  This should include a basic UI of the program - note that this does not need to have any functionality asociated with it, and it may change in the future.
 
 Each of these paper sections shall be CLEARLY MARKED (i.e. they should each have titles and start on their own page).
 
