@@ -2,8 +2,6 @@
 
 You have so far been using a very simple subset of all of the git commands.  From here on out, you will need to learn new techniques, as you will need to do more complicated operations.  Sometimes, other people in your group will also cause problems and you will have to work around them.  And many times, you will have to research the problem!
 
-This exercise is to 
-
 Please fork the BadRepo[0-4] repositories under GitHub username laboon.
 
 BadRepo0 - Create a branch that corrects the incorrect text in the README.md file, then merge that back in the master branch.  Do not do the work directly on the master branch!  Corrections to be made: CS1530 should be the "best" class, not the "worst"; the line referencing pudding should be deleted; you should add a line at the end that says "Final version".
@@ -16,7 +14,7 @@ BadRepo3 - Somebody created a branch with oh-so-many commits.  Compress them all
 
 BadRepo4 - Merge the wjl_derp branch into master. Deal with the merge conflicts as best you can to eliminate them.  There should be no merge conflicts for full credit.
 
-Please _show_ me the fixed repos by the end of the class.
+Please _show_ me the fixed repos by the end of the class.  If you do not finish, you may _show_ me the fixed repos after the sprint retrospective during next class (but you should have _finished_ it before class).
 
 ```
 BadRepo0 fixed: 0.4 points 
