@@ -9,6 +9,6 @@
 6. There are two radio buttons below the textboxes.  Ensure that the one labeled "Create a new branch for this commit and start a pull request." is selected.  This will create a new branch to be merged into the master branch (what everybody sees by default).  The default name for the branch is fine.
 7. Click on the green "Propose file change" button.
 8. A new screen will come up.  Just click on the "Create pull request" button.
-9. You are done!  Note that you have _proposed_ this group, I have not approved it.  Therefore, you will not see your name in the list until I have merged it to the master branch.  However, you can verify that it's there by clicking on the "Pull requests" tab at the top of the screen and checking that your PR is listed.  These are the list of PRs (pull requests) that I have not yet merged.  I try to merge them to master as soon as I see them.  
+9. You are done!  Note that you have _proposed_ this group; I have not approved it.  Therefore, you will not see your name in the list until I have merged it to the master branch.  However, you can verify that it's there by clicking on the "Pull requests" tab at the top of the screen and checking that your PR is listed.  These are the list of PRs (pull requests) that I have not yet merged.  I try to merge them to master as soon as I see them.  
 
 _If you have any questions or issues, please feel free to email me._
