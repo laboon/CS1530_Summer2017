@@ -78,22 +78,22 @@ Note that this syllabus is subject to change, but we will cover all of these top
 ### Class 1 - Software Engineering with TDD
 #### __Reading: Freeman/Pryce, Chapters 4 - 6__
 
-### Class 2 - Integration and the Software Pipeline
-  * Classical models of integration
-  * Continuous Integration
-  * SPRINT 2 ENDS; SPRINT 3 BEGINS
-
-## WEEK 7 (27 and 29 June)
-
-### Class 1 - Programming with Concurrency
+### Class 2 - Programming with Concurrency
   * Why program with threads?
   * Threads vs Processes
   * Pitfalls
   * Thread-safe programming in Java
   * Common patterns and anti-patterns
+  * SPRINT 2 ENDS; SPRINT 3 BEGINS
 
-### Class 2 - Concurrency Exercise
+## WEEK 7 (27 and 29 June)
+
+### Class 1 - Concurrency Exercise
   * Concurrency exercise (EX8)
+
+### Class 2 - Integration and the Software Pipeline
+  * Classical models of integration
+  * Continuous Integration
 
 ## WEEK 8 (4 and 6 July)
 
