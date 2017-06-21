@@ -17,23 +17,18 @@ For the second sprint, you will turn in:
 
 1. A cover page, in the format described below
 2. An approximately one or two page description of what was accomplished this sprint. This can (but is not limited to) cover details such as:
-  1. How teams communicated
-  2. What disagreements arose
-  3. How problems were resolved
-  4. Changes in process since first sprint
-  5. Interactions with customer
-  6. Challenges writing the code or tests
-  7. Design patterns or architectural patterns used
-  8. Anything else that might be of interest
+  * How teams communicated
+  * What disagreements arose
+  * How problems were resolved
+  * Changes in process since first sprint
+  * Interactions with customer
+  * Challenges writing the code or tests
+  * Design patterns or architectural patterns used
+  * Anything else that might be of interest
 3. User stories completed this sprint, along with their indicated number of story points and total velocity
 4. A *link to the code on GitHub/GitLab*.  If I or the TA cannot access it (that is, usernames laboon and tazin-afrin are not added as collaborators), there is an automatic -15 point deduction. 
 4. Details on why you decided on those user stories
 5. A list of any defects found (by unit testing, manual testing, or by developers), and how they were discovered and fixed (or if not fixed, why you decided not to fix them this sprint). This can include defects found by unit testing or system testing by QA (or other methods, such as issues found by the customer). If no defects were found, then please write a paper on how you have developed a way to develop software without making any mistakes, because I would be happy to read it!
-
-1. Something
-  1. Something
-  2. Something
-2. Something
 
 Each of these sections shall be CLEARLY MARKED (i.e. they should each have titles and start on their own page).
 
