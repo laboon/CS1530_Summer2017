@@ -97,10 +97,10 @@ Group Grading:
 1. Description of Sprint: 10% of grade
 1. Listing of Defects: 15% of grade
 1. Code and Tests: 65% of grade
-  1. Functionality: Players can buy, sell, trade, and auction property, "action" squares work, players can win/lose, and clock functionality is added
-  1. Code: All methods should be commented (with JavaDoc or similar)
-  1. Tests: There are unit tests for any "computational" methods (i.e. those that do not display data to the screen)
-  1. Code quality: Separate computation from display, good method/variable names, code is easy to understand, etc.
+  * Functionality: Players can buy, sell, trade, and auction property, "action" squares work, players can win/lose, and clock functionality is added
+  * Code: All methods should be commented (with JavaDoc or similar)
+  * Tests: There are unit tests for any "computational" methods (i.e. those that do not display data to the screen)
+  * Code quality: Separate computation from display, good method/variable names, code is easy to understand, etc.
 
 
 Yes, grammar and spelling count. Points will be deducted for more than one grammatical or spelling error per section.
