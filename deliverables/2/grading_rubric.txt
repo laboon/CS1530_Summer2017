@@ -1,0 +1,66 @@
+Grading Rubric for D2
+
+Listing of Completed User Stories And Story Points: 15% of grade
+
+Contains actual completed user stories                    _____ / 5
+  * Meet Definition of Done (coded, documented, tested, integrated)
+  * Story points included
+
+Details of Why Those User Stories Were Chosen: 5% of grade
+
+Provide explanation for why they were chosen:             _____ / 3
+
+General quality (no typos, etc.)                          _____ / 2
+
+Description of Sprint: 15% of grade
+
+Provides a good description of sprint:                    _____ / 10
+
+General quality (no typos, etc.)                          _____ / 5
+
+Listing of Defects: 15% of grade
+
+At least one defect listed:                               _____ / 5
+
+Proper format used:                                       _____ / 5
+  * Reproduction Steps
+  * Expected Behavior
+  * Observed Behavior
+
+If > 1 defect listed, and at least one is of proper format, maximum
+points off is -2
+
+Defect is readable/understandable/valid:                  _____ / 5
+
+If > 1 defect listed, and at least one is understandable/valid,
+maximum points off is -2
+
+Code and Tests: 60% of grade
+
+Pieces move and take turns:                               _____ / 20
+  * Tokens do not have to be visible
+  
+Players can buy property:                                 _____ / 10 
+  * Property is shown in status bar if bought (-4 if not)
+  * Players can decide NOT to buy property (-5 if not)
+  
+Players charged rent when they land on a square:          _____ / 10
+   
+All methods should be commented (with JavaDoc or similar) _____ / 7
+
+Tests:                                                    _____ / 8
+  * Unit tests exist for computational methods
+  * Tests are valid / have assertions
+  * Tests explain what they are doing
+   
+General code quality:                                     _____ / 5
+
+
+Other:
+
+Improper format for title page: 
+  * -2 does not list Scrum Master
+  * -4 does not list GitHub usernames of team members
+  * -4 no D2 tag
+  
+Total:                                               ____ / 100
