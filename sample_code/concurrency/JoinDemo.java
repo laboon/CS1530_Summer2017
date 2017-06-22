@@ -10,7 +10,7 @@ public class JoinDemo {
 
     public static int y = 0;
 
-    public static final int NUM_TIMES = 1000000;
+    public static final int NUM_TIMES = 100000000;
     
     public static void main(String[] args) {
 	
@@ -18,11 +18,13 @@ public class JoinDemo {
 		for (int j = 0; j < NUM_TIMES; j++) {
 		    x++;
 		}
+		System.out.println("meow!");
 	    });	    
 	Thread t2 = new Thread(() -> {
 		for (int j = 0; j < NUM_TIMES; j++) {
 		    y++;
 		}
+		System.out.println("tweet!");
 	    });
 
 	// Start off both threads
@@ -32,10 +34,10 @@ public class JoinDemo {
 	// Wait for both to finish
 	System.out.println("Main thread of execution here...");
 
-	try {
-	    t1.join();
-	    t2.join();
-	} catch (InterruptedException iex) { }
+	// try {
+	//     t1.join();
+	//     t2.join();
+	// } catch (InterruptedException iex) { }
 	
 	System.out.println("x = " + x + " and y = " + y);
 				   

@@ -14,7 +14,7 @@ public class BadConcurrency {
 		}
 	    });
 
-	// Start thread 1, which will subtract 100,000 from x
+	// Start thread 2, which will subtract 100,000 from x
 
 	Thread t2 = new Thread(() -> {
 		for (int j = 0; j < NUM_TIMES; j++) {

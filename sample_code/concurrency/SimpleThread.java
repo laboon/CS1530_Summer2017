@@ -14,6 +14,8 @@ public class SimpleThread {
 
 	// Note that a method is a type of Runnable (something that
 	// can be run in a Thread).
+
+	SimpleThread st = new SimpleThread();
 	
 	Thread t = new Thread(SimpleThread::backgroundTask);
 
@@ -38,7 +40,7 @@ public class SimpleThread {
 
     // Note that there is nothing special about this method!
     
-    private static void backgroundTask() {
+    private void backgroundTask() {
 
 	// In other thread, print out Background Task (j)
 	// with j from 0 to 99
