@@ -1,6 +1,6 @@
 Grading Rubric for D2
 
-Listing of Completed User Stories And Story Points: 15% of grade
+Listing of Completed User Stories And Story Points: 5% of grade
 
 Contains actual completed user stories                    _____ / 5
   * Meet Definition of Done (coded, documented, tested, integrated)
