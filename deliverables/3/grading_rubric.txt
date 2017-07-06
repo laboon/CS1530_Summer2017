@@ -1,0 +1,75 @@
+Grading Rubric for D2
+
+Listing of Completed User Stories And Story Points: 5% of grade
+
+Contains actual completed user stories                    _____ / 5
+  * Meet Definition of Done (coded, documented, tested, integrated)
+  * Story points included
+
+Details of Why Those User Stories Were Chosen: 5% of grade
+
+Provide explanation for why they were chosen:             _____ / 3
+
+General quality (no typos, etc.)                          _____ / 2
+
+Description of Sprint: 10% of grade
+
+Provides a good description of sprint:                    _____ / 8
+
+General quality (no typos, etc.)                          _____ / 2
+
+Listing of Defects: 15% of grade
+
+At least one defect listed:                               _____ / 5
+
+Proper format used:                                       _____ / 5
+  * Reproduction Steps
+  * Expected Behavior
+  * Observed Behavior
+
+If > 1 defect listed, and at least one is of proper format, maximum
+points off is -2
+
+Defect is readable/understandable/valid:                  _____ / 5
+
+If > 1 defect listed, and at least one is understandable/valid,
+maximum points off is -2
+
+Code and Tests: 65% of grade
+
+Players sell/trade/auction property:                      _____ / 15
+  * Sell to other users for money (-7 if not)
+  * Trade for other properties (-7 if not)
+  * Can auction off properties (-7 if not)
+
+Action squares work:                                      _____ / 10
+  * When player lands on action square, action occurs (-5 if not)
+  * Description of action is shown (-5 if not)
+  
+Clock functionality:                                      _____ / 20
+  * Clock is displayed (-20 if not)
+  * Counts up ~ 1 second at a time (-10 if not)
+  * In proper format (HH:MM:SS) (-5 if not)
+
+Players can win/lose:                                     _____ / 5
+
+All methods should be commented (with JavaDoc or similar) _____ / 5
+
+Tests:                                                    _____ / 5
+  * Unit tests exist for computational methods
+  * Tests are valid / have assertions
+  * Tests explain what they are doing
+   
+General code quality:                                     _____ / 5
+
+Regression failures: up to -20 points (case by case basis)
+
+Other:
+
+Improper format for title page: 
+  * -2 does not list Scrum Master
+  * -4 does not list GitHub usernames of team members
+  * -4 does not list GitHub repository link
+  * -4 no D3 tag
+  
+Total:                                                    ____ / 100
