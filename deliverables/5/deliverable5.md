@@ -1,7 +1,7 @@
 ## CS/COE 1530 - Software Engineering
 ### Summer Semester 2017
 
-### DUE DATE: 20 JULY 2017
+### DUE DATE: 3 AUG 2017
 
 ### Deliverable 5
 
