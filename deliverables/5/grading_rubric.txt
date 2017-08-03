@@ -9,7 +9,7 @@ Story points included:                                    _____ / 1
 
 Description of Sprint: 5% of grade
 
-Provides a good description of sprint:                    _____ / 8
+Provides a good description of sprint:                    _____ / 3
 
 General quality (no typos, etc.)                          _____ / 2
 
