@@ -1,0 +1,44 @@
+Grading Rubric for Final Deliverable
+
+Listing of Completed User Stories And Story Points: 5% of grade
+
+Contains actual completed user stories                    _____ / 4
+  * Meet Definition of Done (coded, documented, tested, integrated)
+
+Story points included:                                    _____ / 1
+
+Description of Sprint: 5% of grade
+
+Provides a good description of sprint:                    _____ / 8
+
+General quality (no typos, etc.)                          _____ / 2
+
+Listing of Defects: 5% of grade
+
+At least one defect listed:                               _____ / 5
+  * Proper format
+  
+Code and Tests: 75% of grade
+
+Final "Regular Game" Functionality:                       _____ / 20
+
+61 Bus System:                                            _____ / 15
+
+File encryption:                                          _____ / 10
+
+Extra functionality:                                      _____ / 15
+   
+All methods should be commented (with JavaDoc or similar) _____ / 5
+
+Tests:                                                    _____ / 5
+   
+General code quality:                                     _____ / 5
+
+Presentation:                                             _____ / 10
+
+Bonus:
+
+Miscellaneous:
+
+
+Total:                                                    ____ / 100
